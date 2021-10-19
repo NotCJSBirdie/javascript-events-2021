@@ -1,0 +1,67 @@
+/* This is an external CSS file */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 8vw;
+}
+
+p {
+  color: white;
+  font-size: 4vw;
+}
+
+.div1 {
+  background-color: #01005e;
+  font-family: "arial narrow";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.div2 {
+  background-color: #22267b;
+  font-family: "arial narrow";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.div3 {
+  background-color: #28518a;
+  font-family: "arial narrow";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+table {
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  background-color: darksalmon;
+  font-size: 4vw;
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+  background-color: white;
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 6vw;
+}
+
+button {
+  font-size: 4vw;
+}

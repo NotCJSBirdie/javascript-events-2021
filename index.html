@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Events 2021</title>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>Javascript Events 2021</h1>
+      <p>HTML events are "things" that happen to HTML elements.</p>
+      <p>
+        When JavaScript is used in HTML pages, JavaScript can "react" on these
+        events.
+      </p>
+    </div>
+    <div class="div2">
+      <p>
+        In the following example, an onclick attribute (with code), is added to
+        a button element:
+      </p>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <button
+        type="button"
+        onclick="document.getElementById('p1').innerHTML= iphone.productversion"
+      >
+        Click here to access the product version
+      </button>
+      <br />
+      <button
+        type="button"
+        onclick="document.getElementById('p2').innerHTML= iphone.productcolor"
+      >
+        Click here to access the product color
+      </button>
+      <script>
+        const iphone = {
+          productcolor: "product red",
+          productversion: "2001"
+        };
+      </script>
+    </div>
+    <div class="div3">
+      <h3>Common HTML Events</h3>
+      <table>
+        <tr>
+          <th>Event</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>onchange</td>
+          <td>An HTML element has been changed</td>
+        </tr>
+        <tr>
+          <td>onclick</td>
+          <td>The user clicks an HTML element</td>
+        </tr>
+        <tr>
+          <td>onmouseover</td>
+          <td>The user moves the mouse over an HTML element</td>
+        </tr>
+        <tr>
+          <td>onmouseout</td>
+          <td>The user moves the mouse away from an HTML element</td>
+        </tr>
+        <tr>
+          <td>onkeydown</td>
+          <td>The user pushes a keyboard key</td>
+        </tr>
+        <tr>
+          <td>onload</td>
+          <td>The browser has finished loading the page</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
